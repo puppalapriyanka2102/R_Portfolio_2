@@ -6,11 +6,11 @@ output: rmarkdown::github_document
 keep_md: true
 html_preview: True
 
-knit: (function("C:/R_DS/COVID19CORONAVIRUSPANDEMIC.rmd", encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render("C:/R_DS/COVID19CORONAVIRUSPANDEMIC.rmd",
- encoding=encoding,
- output_file=file.path(dirname("C:/R_DS/COVID19CORONAVIRUSPANDEMIC.rmd"), out_dir, 'index.html'))})
+# knit: (function("C:/R_DS/COVID19CORONAVIRUSPANDEMIC.rmd", encoding) {
+#   out_dir <- 'docs';
+#   rmarkdown::render("C:/R_DS/COVID19CORONAVIRUSPANDEMIC.rmd",
+#  encoding=encoding,
+#  output_file=file.path(dirname("C:/R_DS/COVID19CORONAVIRUSPANDEMIC.rmd"), out_dir, 'index.html'))})
 ---
  
 ```{r setup, include=FALSE}
