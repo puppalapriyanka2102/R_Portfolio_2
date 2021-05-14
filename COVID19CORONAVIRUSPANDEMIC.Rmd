@@ -2,11 +2,10 @@
 title: "Untitled"
 author: "Priyanka"
 date: "1/4/2021"
-output: github_document
+output: rmarkdown::github_document
+keep_md: true
 html_preview: True
-#   pdf_document: default
-#   html_document: default
-# always_allow_html: yes
+
 knit: (function("C:/R_DS/COVID19CORONAVIRUSPANDEMIC.rmd", encoding) {
   out_dir <- 'docs';
   rmarkdown::render("C:/R_DS/COVID19CORONAVIRUSPANDEMIC.rmd",
